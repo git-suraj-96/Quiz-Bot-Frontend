@@ -1,0 +1,6 @@
+.app-container{
+    display: flex;
+    gap: 2px;
+    padding-top: 3px;
+    padding: 10px;
+}

@@ -1,0 +1,20 @@
+.hero-hero{
+    width: 68vw;
+    height: 90vh;
+    background-color: black;
+    /* box-shadow: 5px 5px 5px rgb(136, 136, 136); */
+    border: 1px solid white;
+    margin-left: 5px;
+    border-radius: 4px;
+    float: right;
+    padding: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+@media (max-width:800px) {
+    .hero-hero{
+        width: 100vw;
+        margin-left: 0;
+    }
+}

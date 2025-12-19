@@ -1,0 +1,52 @@
+.card-element{
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    border-top: 1px solid rgb(178, 178, 178);
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 2rem;
+    background-color: black;
+}
+
+.card-element div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-element div button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    background-color: #ffffff57;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(36, 36, 36);
+    
+}
+
+.card-element button:active{
+    transform: scale(0.95);
+}
+
+.card-element p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(178, 178, 178);
+}
+
+.card-element .card-red{
+    background-color: red;
+}
+
+.card-element .card-green{
+    background-color: green;
+}

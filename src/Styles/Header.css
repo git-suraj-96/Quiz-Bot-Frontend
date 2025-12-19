@@ -1,0 +1,25 @@
+.header-nav{
+    width: 100%;
+    padding: 15px 20px;
+    box-shadow: 5px 5px 5px rgb(87 87 87 / 75%);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: black;
+
+    color: white;
+}
+
+.header-nav img{
+    height: 30px;
+    cursor: pointer;
+    display: none;
+    background-color: white;
+    border-radius: 3px;    
+}
+
+@media (max-width:800px) {
+    .header-nav img{
+        display: block;
+    }
+}

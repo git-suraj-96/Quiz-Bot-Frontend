@@ -1,0 +1,116 @@
+.sidebar-side{
+    width: 30vw;
+    height: 90vh;
+    /* box-shadow: 5px 5px 5px rgb(131, 131, 131); */
+    border: 1px solid white;
+    margin-top: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: 1.2s ease-in-out;
+}
+
+.sidebar-side .container{
+    width: 100%;
+    padding: 10px;
+    /* box-shadow: 5px 5px 5px rgb(172, 172, 172); */
+    border-radius: 5px;
+    margin-top: 10px;
+    border-top: 1px solid white;
+    background-color: black;
+    border: 1px solid white;
+}
+.container p{
+    margin: 10px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px 3px rgb(163, 163, 163);
+    text-align: center;
+}
+
+.sidebar-topic textarea{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+    height: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.sidebar-select-level select{
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.sidebar-genrate-btn button{
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(39, 137, 39);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.sidebar-genrate-btn button:active{
+    transform: scale(0.95);
+}
+
+.sidebar-count{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(92, 92, 92);
+}
+
+.side-del{
+    width: 100%;
+    padding-left: 10px;
+    display: none;
+}
+
+.side-del img{
+    width: 30px;
+}
+
+@media (max-width: 800px) {
+    .sidebar-side{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+    }
+    .container textarea{
+        height: 15rem;
+    }
+
+    .side-del {
+        display: block;
+        width: 100%;
+    }
+}
